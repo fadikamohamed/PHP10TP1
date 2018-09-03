@@ -1,0 +1,67 @@
+div {
+    border: 1px solid;
+    height: 30px;
+    width: 30px;
+    display: inline-block;
+    margin: -3;
+    background-color: red;
+}
+#case0,#case43,#case86,#case129,#case172,#case215,#case258,#case301,#case344,#case387,#case430,#case473,#case516,#case559,#case602,#case645,#case688,#case731,#case774,#case817 
+{
+    animation-name: example;
+    animation-duration: 4s;
+}
+@keyframes example {
+    from {
+        background-color: red;
+        
+    }
+    50% {
+        background-color: blue;
+    }
+    to {
+        background-color: red;
+    }
+}
+
+#case1,#case44,#case87,#case130,#case173,#case216,#case259,#case302,#case345,#case388,#case431,#case474,#case517,#case560,#case603,#case646,#case689,#case732,#case775,#case818 
+{
+    animation-name: example;
+    animation-duration: 6s;
+}
+@keyframes example {
+    from {
+        background-color: red;
+        
+    }
+    50% {
+        background-color: red;
+    }
+    75% {
+        background-color: blue;
+    }
+    to {
+        background-color: red;
+    }
+}
+
+#case2,#case45,#case88,#case131,#case174,#case217,#case260,#case303,#case346,#case389,#case432,#case475,#case518,#case561,#case604,#case647,#case690,#case733,#case776,#case819 
+{
+    animation-name: example;
+    animation-duration: 8s;
+}
+@keyframes example {
+    from {
+        background-color: red;
+        
+    }
+    50% {
+        background-color: red;
+    }
+    75% {
+        background-color: blue;
+    }
+    to {
+        background-color: red;
+    }
+}
